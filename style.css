@@ -1,0 +1,58 @@
+.rss-item-box {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px auto;  /* Centers the box horizontally */
+  border-radius: 6px;
+  background-color: #f3ebdd;
+  max-width: 800px;  /* Set a maximum width */
+}
+
+.h1-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;  /* Center-align the text */
+}
+
+body {
+  font-family: 'Georgia', serif; /* This sets the global font for the entire site */
+}
+
+.rss-item-box h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.rss-item-box a {
+  color: #9b9b9b ;
+  text-decoration: none;
+}
+
+.rss-item-box p {
+  margin-top: 8px;
+}
+
+/*styles.css*/
+.subheading {
+  text-align: center;  /* Center-align the text */
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.rss-item-box:hover {
+  background-color: #d9c7b1; /* A darker shade for hover */
+  cursor: pointer; /* Hand cursor when hovering */
+}
+.rss-item-box a,
+.rss-item-box a h3,
+.rss-item-box a p {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
